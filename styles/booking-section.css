@@ -1,0 +1,71 @@
+.col-lg-6 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    padding: 15px;
+    padding-right: 10px;
+}
+
+.upper-sec {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.upper-sec > p {
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(63, 169, 244);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.input-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(63, 169, 244);
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.input-area input {
+    width: 340px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.form-select {
+    width: 340px;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.book-btn {
+    background-color: rgb(63, 169, 244);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin-top: 15px;
+}

@@ -1,0 +1,68 @@
+.train-section {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 10px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.row-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.seat {
+    width: 42px;
+    height: 42px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+}
+
+.number {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+}
+
+.empty {
+    background-color: rgb(200, 200, 200);
+}
+.booked {
+    background-color: rgb(63, 169, 244);
+    object-fit: cover;
+}
+.userSeats {
+    background-color: rgb(183, 103, 244);
+}
+
+#train-seats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
