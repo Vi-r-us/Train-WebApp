@@ -126,7 +126,7 @@ function renderLoadAnimation(map) {
         animationContainer.style.display = "none";
         // Fetch train data and render seats on the UI
         getTrain(map);
-    }, 1000);
+    }, 3500);
 }
 
 // Initialize the loading animation with an empty map
